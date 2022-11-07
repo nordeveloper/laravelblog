@@ -1,5 +1,6 @@
 <p>Related news</p>
 <div class="row blog-related">
+    @if(!empty($result))
     @foreach ($result as $item)
     <div class="col-md-12 blog-item">
         <div class="blog-wrapp">
@@ -13,4 +14,5 @@
         </div>
     </div>
     @endforeach
+    @endif
 </div>
