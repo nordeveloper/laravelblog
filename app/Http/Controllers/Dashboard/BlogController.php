@@ -120,7 +120,7 @@ class BlogController extends AppController
             
             $fileContent = file_get_contents("https://img.youtube.com/vi/".trim($videoid)."/maxresdefault.jpg");			
             
-            $image_url = '/upload/'.$videoid.'.jpg'; 
+            $image_url = 'upload/'.$videoid.'.jpg'; 
             $filePath = storage_path().'/app/public/'.$image_url;
                        
 
