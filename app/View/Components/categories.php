@@ -24,7 +24,8 @@ class categories extends Component
      */
     public function render()
     {
-        $result = BlogCategory::all();
+        $result = BlogCategory::get();
+        dump($result);
         return view('components.categories', ['result'=>$result]);
     }
 }

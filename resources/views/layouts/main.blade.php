@@ -28,7 +28,7 @@
         <header class="header container">
             <div class="row">
                 <div class="col-md-3">
-                    <h2 class="logo"><a href="/">Nor BLog</a></h2>
+                    <h2 class="logo"><a href="/">Video BLog</a></h2>
                 </div>
                 <div class="col-md-5">
                     <form class="form-inline" action="{{route('blog')}}">
