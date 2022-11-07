@@ -1,4 +1,4 @@
-@if(!$result->isEmpty())
+@if( !empty($result) && !$result->isEmpty())
 <P>News feed</P>
 <div class="row">
     @foreach ($result as $item)
